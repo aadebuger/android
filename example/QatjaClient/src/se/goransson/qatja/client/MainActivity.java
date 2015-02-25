@@ -138,7 +138,7 @@ public class MainActivity extends Activity implements MQTTConnectionConstants,
 
 	protected void connect(String host, String clientIdentifier) {
 		// Default host is test.mosquitto.org (you should change this!)
-		client.setHost(host);
+		client.setHost("1257.net");
 
 		// Default mqtt port is 1883
 		client.setPort(1883);
